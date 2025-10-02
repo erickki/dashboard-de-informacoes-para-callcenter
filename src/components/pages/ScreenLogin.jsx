@@ -30,7 +30,7 @@ export default function ScreenLogin(props) {
           <Input1 type="text" text="Email" />
           <Input1 type="password" text="Senha" />
           <a
-            href="#"
+            href="/registro"
             className="italic text-[16px] text-white-1 hover:text-purple-1 underline duration-200"
           >
             Esqueceu sua senha?

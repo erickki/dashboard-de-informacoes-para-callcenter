@@ -11,15 +11,15 @@ import ScreenRegister from "./components/pages/ScreenRegister.jsx";
 let router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    Component: <App />,
   },
   {
     path: "/login",
-    element: <ScreenLogin />,
+    Component: <ScreenLogin />,
   },
   {
     path: "/registro",
-    element: <ScreenRegister />,
+    Component: <ScreenRegister />,
   },
 ]);
 
