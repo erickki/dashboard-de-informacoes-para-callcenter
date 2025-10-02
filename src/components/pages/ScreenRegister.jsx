@@ -1,5 +1,5 @@
+import ButtonLink1 from "../ButtonLink1";
 import Button1 from "../Button1";
-import Button2 from "../Button2";
 import Input1 from "../Input1";
 
 export default function ScreenRegister(props) {
@@ -16,14 +16,14 @@ export default function ScreenRegister(props) {
             Seja bem vindo(a)!
           </h1>
           <h2 className="italic text-[18px] text-white-1">Já tem uma conta?</h2>
-          <Button1 text="Logar-se!" />
+          <ButtonLink1 href="/login" text="Logar-se!" />
         </div>
         <div className="h-[500px] w-[400px] bg-gray-2 flex flex-col justify-center items-center rounded-r-[25px] gap-[15px]">
           <Input1 type="text" text="Matrícula" />
           <Input1 type="text" text="Email" />
           <Input1 type="password" text="Senha" />
           <Input1 type="password" text="Repetir Senha" />
-          <Button2 text="Registrar" />
+          <Button1 text="Registrar" />
           <h4 className="italic text-[16px] text-red-1 underline">
             {textText}
           </h4>
